@@ -114,4 +114,5 @@ knp_snappy:
         enabled:    true
         # Edit this to change the location of wkhtmltopdf binary.
         #binary:     /usr/local/bin/wkhtmltopdf #"\"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe\"" for Windows users
+        binary: xvfb-run /usr/bin/wkhtmltopdf
         options:    []
